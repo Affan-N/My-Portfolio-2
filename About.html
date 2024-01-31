@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+
+        body{
+            background-color: rgb(255, 238, 217);
+        }
+
+        nav ul {
+            background-color: rgb(245, 75, 75);
+            border: 2px solid black;
+            overflow: auto;
+            border-radius: 20px;
+
+        }
+
+        nav ul li {
+            float: left;
+            list-style: none;
+            padding: 8px 4px;
+            margin: 0px 82px;
+            font-size: larger;
+
+        }
+
+        #logo {
+            position: absolute;
+            width: 35px;
+            border-radius: 20px;
+            right: 36px;
+            top: 18px;
+            border: 2px solid black;
+        }
+
+        nav ul li a {
+            color: rgb(169, 255, 31);
+            text-decoration: none;
+
+        }
+
+        nav ul li a:hover {
+            color: rgb(79, 119, 52);
+        }
+
+        .about {
+            text-decoration: underline;
+        }
+
+        .underline:hover {
+            text-decoration: underline;
+        }
+
+
+        @media screen and (max-width:1000px) {
+           nav ul{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 0px 0px;
+            }
+
+            #logo{
+                display: none;
+            }
+
+        }
+
+
+
+        /* yaha pr nav khatam */
+
+
+
+        #firstme {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0px;
+        }
+
+
+        #aboutme {
+            border: 2px solid black;
+            margin: 0px 40px;
+            padding: 0px 30px;
+            word-spacing: 10px;
+            width: 50%;
+            background-color: #e8dcff;
+            border-radius: 10px;
+        }
+
+        /* yaha pr section1 ktham */
+
+
+        #secondme {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0px;
+        }
+
+        #portfolio {
+            border: 2px solid black;
+            margin: 0px 40px;
+            padding: 0px 30px;
+            word-spacing: 10px;
+            width: 50%;
+            background-color: #e8dcff;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+
+        #Experiences {
+            background-color: #d9ffb7;
+            border-radius: 5px;
+            border: 1px solid black;
+            margin: 20px;
+            padding: 5px;
+            box-sizing: border-box;
+            box-shadow: 0px 0px 4px 4px gray;
+        }
+
+        #TechPhilosophy {
+            background-color: #ffe8b7;
+            border-radius: 5px;
+            border: 1px solid black;
+            margin: 20px;
+            padding: 10px;
+            box-sizing: border-box;
+            box-shadow: 0px 0px 4px 4px gray;
+        }
+
+        #connect {
+            background-color: #f1b7ff;
+            border-radius: 5px;
+            border: 1px solid black;
+            margin: 20px;
+            padding: 5px;
+            box-sizing: border-box;
+            box-shadow: 0px 0px 4px 4px gray;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+            <ul>
+                <li><a class="underline" href="index.html">Home</a></li>
+                <li><a class="underline" href="Contact us.html">Contact us</a></li>
+                <li><a class="about" href="About.html">About</a></li>
+                <li><a class="underline" href="Sign in .html">Sign in</a></li>
+            </ul>
+
+            <a href="index.html"><img id="logo" src="istockphoto-1413514774-170667a.jpg"></a>
+        </nav>
+
+    </header>
+
+    <main>
+
+
+
+        <section id="firstme">
+            <div id="aboutme">
+                <h1>About Me</h1>
+                <p>Hello! My name is Affan, and I am a passionate tech enthusiast. I carry a profound interest in modern
+                    technology, connecting the world with new and better ways. My goal is to tread into the dynamic
+                    world of tech, exploring every new tech trend that surfaces.
+
+                    I am particularly interested in artificial intelligence, data science, and emerging technologies. I
+                    harbor a curiosity to understand the future prospects of technology, and I shape this curiosity
+                    through practical experiences.
+
+                    I firmly believe that technology is not merely a tool but also a creative expression that can lead
+                    us towards a new world. My aim is to contribute to this journey by creating innovative solutions and
+                    experiences.
+
+                    I am confident that technology is not just a means but also a creative expression that can lead us
+                    towards a new world. My goal is to contribute to this journey by creating innovative solutions and
+                    experiences.
+
+                    I look forward to your thoughts and feedback. Let's join hands to redefine the world of technology!
+                </p>
+            </div>
+        </section>
+        <!-- section1 end -->
+
+
+
+        <section id="secondme">
+            <div id="portfolio">
+                <h1>My Portfolio</h1>
+                <p>Welcome to my tech realm! I am Affan, and this is my digital space dedicated to showcasing my journey
+                    in the world of technology. Here, you will find a collection of projects, experiences, and insights
+                    that define my exploration and engagement with modern technology.</p>
+
+                <h2>Featured Projects:</h2>
+
+                <ul>
+                    <li><strong>AI-driven Solutions:</strong> Delve into my endeavors in artificial intelligence, where
+                        I've harnessed the power of algorithms to create efficient and intelligent solutions.</li>
+
+                    <li><strong>Data Science Explorations:</strong> Explore my ventures into the realm of data science,
+                        where I've deciphered patterns and trends to extract meaningful insights.</li>
+
+                    <li><strong>Tech Innovations:</strong> Witness my passion for innovation through various tech
+                        projects, each representing a step forward in reshaping the technological landscape.</li>
+                </ul>
+
+
+                <div id="portfoliomain">
+
+                    <div id="Experiences">
+                        <h2>Experiences:</h2>
+                        <p>My journey is not just about projects; it's also shaped by the experiences I've gained. From
+                            collaborating with diverse teams to independently navigating through complex challenges,
+                            every experience has contributed to my growth as a tech enthusiast.</p>
+                    </div>
+
+                    <div id="TechPhilosophy">
+                        <h2>Tech Philosophy:</h2>
+                        <p>In this section, I share my thoughts on the role of technology in our lives, its potential
+                            for positive change, and the ethical considerations that guide my approach to innovation.
+                        </p>
+                    </div>
+
+                    <div id="connect">
+                        <h2>Connect With Me:</h2>
+                        <p>Let's continue this conversation beyond the portfolio. Connect with me on social media or
+                            drop me a message. I am always open to discussions, collaborations, and new opportunities.
+                    </div>
+
+
+
+                    Thank you for visiting my portfolio. I hope it provides you with a glimpse into my tech journey, and
+                    I look forward to exploring the possibilities that lie ahead.
+
+
+                    Feel free to reach out for any further details or inquiries. Cheers to the world of tech!</p>
+
+                </div>
+        </section>
+        <!-- section2 end -->
+
+
+    </main>
+
+
+</body>
+
+</html>

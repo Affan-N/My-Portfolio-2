@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Second Portfolio</title>  
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+
+
+
+
+        ul {
+            background-color: rgb(245, 75, 75);
+            border: 2px solid black;
+            overflow: auto;
+            border-radius: 20px;
+
+        }
+
+        ul li {
+            float: left;
+            list-style: none;
+            padding: 8px 4px;
+            margin: 0px 82px;
+            font-size: larger;
+
+        }
+
+        #logo {
+            position: absolute;
+            width: 35px;
+            border-radius: 20px;
+            right: 36px;
+            top: 18px;
+            border: 2px solid black;
+        }
+
+        ul li a {
+            color: rgb(169, 255, 31);
+            text-decoration: none;
+
+        }
+
+        ul li a:hover {
+            color: rgb(79, 119, 52);
+        }
+
+        .home {
+            text-decoration: underline;
+        }
+
+        .underline:hover {
+            text-decoration: underline;
+        }
+
+        @media screen and (max-width:1000px) {
+            nav ul {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 0px 0px;
+            }
+
+            #logo {
+                display: none;
+            }
+
+        }
+
+
+        /* yaha pr nav khatam */
+
+        #container {
+            display: flex;
+            background-color: #c2f3ff;
+            width: 100vw;
+        }
+
+        .item1 {
+            padding-right: 20px;
+            margin: 30px 0px 30px 30px;
+            background-color: #b4e1e1;
+            border-radius: 10px;
+            width: 530px;
+        }
+
+        #computer {
+            border-radius: 20px;
+            border: 1px solid black;
+            box-shadow: 2px 2px 5px 2px black;
+            width: 100%;
+            height: 100%;
+        }
+
+
+        #container2 {
+            display: flex;
+            background-color: #c2f3ff;
+            margin-top: 20px;
+            width: 100vw;
+        }
+
+        #mobile {
+            border-radius: 20px;
+            border: 1px solid black;
+            box-shadow: 2px 2px 5px 2px black;
+            width: 75%;
+        }
+
+
+        #con2id1 {
+            padding-right: 20px;
+            margin: 30px 0px 30px 30px;
+            background-color: #b4e1e1;
+            border-radius: 10px;
+            width: 1082px;
+        }
+
+        .image {
+            margin-top: 24px;
+        }
+
+
+        figure{
+            display: flex;
+            justify-content: space-around;
+        }
+
+
+        @media screen and (max-width:1000px) {
+            .flexcontainer {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+
+
+            .item1 {
+                width: 88vw;
+            }
+
+
+            #computer {
+                width: 40vw;
+                height: 50vh;
+            }
+
+            #mobile {
+                width: 40vw;
+                height: 50vh;
+            }
+
+
+
+
+            figure {
+                display: flex;
+                justify-content: center;
+            }
+
+
+            #con2id1 {
+            width: 88%;
+
+        }
+    }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a class="home" href="index.html">Home</a></li>
+                <li><a class="underline" href="Contact us.html">Contact us</a></li>
+                <li><a class="underline" href="About.html">About</a></li>
+                <li><a class="underline" href="Sign in .html">Sign in</a></li>
+            </ul>
+
+            <a href="index.html"><img id="logo" src="istockphoto-1413514774-170667a.jpg"></a>
+        </nav>
+
+    </header>
+    <main>
+
+
+        <div id="container" class="flexcontainer">
+
+
+            <section class="item1">
+
+                <h1>Benefits of Computers</h1>
+                <ol>
+                    <li><strong>Information Access:</strong> Computers allow quick and easy access to a vast amount of
+                        information through the internet.</li>
+                    <li><strong>Efficient Communication:</strong> Emails and messaging apps make communication faster
+                        and
+                        more
+                        efficient.</li>
+                    <li><strong>Automation:</strong> Computers automate repetitive tasks, saving time and reducing
+                        errors.
+                    </li>
+                    <li><strong>Data Storage:</strong> Large amounts of data can be stored on computers, making it easy
+                        to
+                        organize and retrieve information.</li>
+                    <li><strong>Multitasking:</strong> Computers enable users to perform multiple tasks simultaneously,
+                        increasing productivity.</li>
+                    <li><strong>Entertainment:</strong> From games to streaming, computers provide a wide range of
+                        entertainment
+                        options.</li>
+                    <li><strong>Education:</strong> Computers are powerful tools for learning, providing access to
+                        educational
+                        resources and online courses.</li>
+                    <li><strong>Business Operations:</strong> Many businesses rely on computers for inventory
+                        management,
+                        financial transactions, and overall operations.</li>
+                    <li><strong>Creative Expression:</strong> Graphic design, music production, and other creative
+                        pursuits
+                        are
+                        enhanced with computer technology.</li>
+                    <li><strong>Research and Development:</strong> Scientists and researchers use computers for
+                        simulations,
+                        analysis, and innovation.</li>
+                </ol>
+            </section>
+
+
+
+
+            <section>
+
+                <figure>
+                    <img class="image" id="computer"
+                        src="https://cdn.pixabay.com/photo/2016/04/04/14/12/monitor-1307227_640.jpg" alt="Computers">
+                </figure>
+
+            </section>
+
+
+        </div>
+
+
+        <div id="container2" class="flexcontainer">
+
+            <section id="con2id1" class="item1">
+                <h1>Benefits of Mobile Phones</h1>
+
+                <ol>
+                    <li>
+                        <strong>Communication:</strong> Mobile phones facilitate easy and instant communication with
+                        people
+                        worldwide.
+                    </li>
+
+                    <li>
+                        <strong>Information Access:</strong> Mobile phones provide access to a vast amount of
+                        information through the
+                        internet, enhancing knowledge and awareness.
+                    </li>
+
+                    <li>
+                        <strong>Emergency Assistance:</strong> In critical situations, mobile phones serve as a quick
+                        means to seek
+                        help and assistance.
+                    </li>
+
+                    <li>
+                        <strong>Entertainment:</strong> Mobile phones offer various forms of entertainment, such as
+                        games, music, and
+                        videos, providing relaxation and enjoyment.
+                    </li>
+
+                    <li>
+                        <strong>Productivity:</strong> Mobile phones assist in managing tasks, scheduling, and staying
+                        organized,
+                        boosting productivity.
+                    </li>
+
+                    <li>
+                        <strong>Navigation:</strong> Mobile phones with GPS capabilities help in navigation and finding
+                        locations
+                        easily.
+                    </li>
+
+                    <li>
+                        <strong>Photography:</strong> The built-in cameras in mobile phones allow capturing moments and
+                        memories on
+                        the go.
+                    </li>
+
+                    <li>
+                        <strong>Social Connection:</strong> Mobile phones enable staying connected with friends and
+                        family through
+                        social media platforms.
+                    </li>
+
+                    <li>
+                        <strong>Learning Opportunities:</strong> Mobile phones provide access to educational apps and
+                        resources,
+                        facilitating continuous learning.
+                    </li>
+
+                    <li>
+                        <strong>Time Management:</strong> Mobile phones help in managing time efficiently with features
+                        like alarms,
+                        reminders, and calendars.
+                    </li>
+
+                </ol>
+            </section>
+
+
+
+            <section>
+                <figure>
+                    <img class="image" id="mobile"
+                        src="https://images.unsplash.com/photo-1605236453806-6ff36851218e?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                </figure>
+            </section>
+
+        </div>
+
+    </main>
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+
+
+        body {
+            background-color: #bea9de;
+        }
+
+
+        ul {
+            background-color: rgb(245, 75, 75);
+            border: 2px solid black;
+            overflow: auto;
+            border-radius: 20px;
+
+        }
+
+        ul li {
+            float: left;
+            list-style: none;
+            padding: 8px 4px;
+            margin: 0px 82px;
+            font-size: larger;
+
+        }
+
+        #logo {
+            position: absolute;
+            width: 35px;
+            border-radius: 20px;
+            right: 36px;
+            top: 18px;
+            border: 2px solid black;
+        }
+
+        ul li a {
+            color: rgb(169, 255, 31);
+            text-decoration: none;
+
+        }
+
+        ul li a:hover {
+            color: rgb(79, 119, 52);
+        }
+
+        .home {
+            text-decoration: underline;
+        }
+
+        .underline:hover {
+            text-decoration: underline;
+        }
+
+
+        @media screen and (max-width:1000px) {
+            nav ul {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 0px 0px;
+            }
+
+            #logo {
+                display: none;
+            }
+
+        }
+
+
+
+        /* yaha pr nav khatam */
+
+
+        #form {
+            background-color: #546bab;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: auto;
+            justify-content: center;
+            border-radius: 10px;
+            border: 2px solid #3e3e3e;
+        }
+
+        span {
+            color: white;
+        }
+
+
+        .gray {
+            background-color: #bea9de;
+            color: black;
+            border: 2px solid black;
+            margin: 5px 20px;
+        }
+
+
+
+        .button {
+            background-color: #bea9de;
+            margin: 5px 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a class="underline" href="index.html">Home</a></li>
+                <li><a class="underline" href="Contact us.html">Contact us</a></li>
+                <li><a class="underline" href="About.html">About</a></li>
+                <li><a class="home" href="Sign in .html">Sign in</a></li>
+            </ul>
+
+            <a href="index.html"><img id="logo" src="istockphoto-1413514774-170667a.jpg"></a>
+        </nav>
+
+    </header>
+
+    <section>
+        <div>
+            <form action="#" id="form">
+                <input class="gray" type="text" placeholder="Enter your Name">
+                <input class="gray" type="email" placeholder="Enter your Email">
+
+                <input class="gray" type="password" placeholder="Enter your Password">
+                <label for="male">
+                    <span>Gender: Male:</span><input type="radio" name="Gender" id="male">
+                </label>
+
+                <label for="female">
+                    <span>Female:</span> <input type="radio" name="Gender" id="female">
+                </label>
+
+                <input class="button" type="submit">
+
+                <input class="button" type="reset">
+
+            </form>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
